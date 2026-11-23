@@ -10,12 +10,10 @@
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
-            /* dont let the page width expand if we addd extra margin or padding etc */
             font-family: Arial;
         }
 
         :root {
-            /* we can say that it is shortcut for work (--name of shortcut) */
             --primary: #7f8fa6;
             --secondary: rgba(0, 0, 0, 0.1);
             --white: #fff;
@@ -45,7 +43,6 @@
             font-weight: bold;
         }
 
-        /* Hero seection */
         .hero {
             margin-bottom: 2rem;
             align-items: center;
@@ -606,7 +603,7 @@
                         <p class="para">Find your good way of living with our chair<br>
                             total comfort with best shape and size <br>
                             always in your budget</p>
-                        <button>Only 90$</button>
+                        <button>Only ₹90</button>
                         <button class="add-btn" onclick="addToCart('Wooden chair', 90, 'https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
                     </div>
                 </div>
@@ -621,7 +618,7 @@
                         <p class="para2">Find your good way of living with our chair<br>
                             total comfort with best shape and size <br>
                             always in your budget</p>
-                        <button>Only 90$</button>
+                        <button>Only ₹90</button>
                         <button class="add-btn" onclick="addToCart('Shelf', 90, 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=550&q=80')">Add to Cart</button>
                     </div>
                     <div class="featured2-right-column">
@@ -642,7 +639,7 @@
                         <p class="para">Find your good way of living with our chair<br>
                             total comfort with best shape and size <br>
                             always in your budget</p>
-                        <button>Only 90$</button>
+                        <button>Only ₹90</button>
                         <button class="add-btn" onclick="addToCart('Flower pot', 90, 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
                     </div>
                 </div>
@@ -653,120 +650,40 @@
             <h1>Best selling</h1>
             <div class="selling-row">
                 <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&h=350&fit=crop&q=80" alt="Sample sofa (Classic)" onerror="this.src='https://placehold.co/500x350/7f8fa6/ffffff?text=Classic+Sofa'">
                     <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Classic)', 120, 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
+                    <p>₹120-₹150</p>
+                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Classic)', 120, 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&h=350&fit=crop&q=80')">Add to Cart</button>
                 </div>
                 <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
+                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&h=350&fit=crop&q=80" alt="Sample sofa (Modern)" onerror="this.src='https://placehold.co/500x350/7f8fa6/ffffff?text=Modern+Sofa'">
                     <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Modern)', 135, 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
+                    <p>₹120-₹150</p>
+                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Modern)', 135, 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&h=350&fit=crop&q=80')">Add to Cart</button>
                 </div>
                 <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
+                    <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=500&h=350&fit=crop&q=80" alt="Sample sofa (Deluxe)" onerror="this.src='https://placehold.co/500x350/7f8fa6/ffffff?text=Deluxe+Sofa'">
                     <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Deluxe)', 150, 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
+                    <p>₹120-₹150</p>
+                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Deluxe)', 150, 'https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=500&h=350&fit=crop&q=80')">Add to Cart</button>
                 </div>
                 <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=500&h=350&fit=crop&q=80" alt="Sample sofa (Comfort)" onerror="this.src='https://placehold.co/500x350/7f8fa6/ffffff?text=Comfort+Sofa'">
                     <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Comfort)', 120, 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
+                    <p>₹120-₹150</p>
+                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Comfort)', 120, 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=500&h=350&fit=crop&q=80')">Add to Cart</button>
                 </div>
                 <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=500&h=350&fit=crop&q=80" alt="Sample sofa (Studio)" onerror="this.src='https://placehold.co/500x350/7f8fa6/ffffff?text=Studio+Chair'">
                     <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Studio)', 135, 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
+                    <p>₹120-₹150</p>
+                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Studio)', 135, 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=500&h=350&fit=crop&q=80')">Add to Cart</button>
                 </div>
                 <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
+                    <img src="https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=500&h=350&fit=crop&q=80" alt="Sample sofa (Lounge)" onerror="this.src='https://placehold.co/500x350/7f8fa6/ffffff?text=Lounge+Sofa'">
                     <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Lounge)', 150, 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80')">Add to Cart</button>
-                </div>
-            </div>
-        </section>
-        <!-- selling section -->
-        <section id="selling">
-            <h1>Best selling</h1>
-            <div class="selling-row">
-                <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
-                    <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                </div>
-                <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
-                    <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                </div>
-                <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
-                    <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                </div>
-                <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
-                    <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                </div>
-                <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
-                    <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                </div>
-                <div class="selling-box">
-                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=500&q=80" alt="Sample sofa" onerror="this.src='https://placehold.co/400x260/7f8fa6/ffffff?text=Sample+Sofa'">
-                    <h3>Sample sofa</h3>
-                    <p>$120-$150</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="featured2">
-                <div class="featured2-row">
-                    <div class="featured2-left-column">
-                        <h1>Best <br>Festival<label style="color: #7f8fa6;"> Offer's</label></h1>
-                        <p class="para2">We are providing best offers on every festival. We are<br>
-                            always ready to help you in buying something good<br>
-                            products. We are providing best offers on every<br>
-                            festival.So always be positive about our products and <br>
-                            ready to buy our items</p>
-                        <button>Book now</button>
-                    </div>
-                    <div class="featured2-right-column">
-                        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80" alt="Festival Furniture Collection" id="featured2img" onerror="this.src='https://placehold.co/450x300/7f8fa6/ffffff?text=Festival+Offer'">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="blog">
-            <h1>Our blog</h1>
-            <div class="blog-row">
-                <div class="blog-box">
-                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=500&q=80" alt="Interior Design Blog 1" onerror="this.src='https://placehold.co/400x250/7f8fa6/ffffff?text=Blog+1'">
-                    <h3>Interior Design <br>
-                        is the Art, the interior designer</h3>
-                    <p>November 15, 2020 / Furniture</p>
-                    <button>Read more</button>
-                </div>
-                <div class="blog-box">
-                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=500&q=80" alt="Interior Design Blog 2" onerror="this.src='https://placehold.co/400x250/7f8fa6/ffffff?text=Blog+2'">
-                    <h3>Interior Design <br>
-                        is the Art, the interior designer</h3>
-                    <p>November 15, 2020 / Furniture</p>
-                    <button>Read more</button>
-                </div>
-                <div class="blog-box">
-                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=500&q=80" alt="Interior Design Blog 3" onerror="this.src='https://placehold.co/400x250/7f8fa6/ffffff?text=Blog+3'">
-                    <h3>Interior Design <br>
-                        is the Art, the interior designer</h3>
-                    <p>November 15, 2020 / Furniture</p>
-                    <button>Read more</button>
+                    <p>₹120-₹150</p>
+                    <button class="selling-box-btn" onclick="addToCart('Sample sofa (Lounge)', 150, 'https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=500&h=350&fit=crop&q=80')">Add to Cart</button>
                 </div>
             </div>
         </section>
@@ -823,7 +740,7 @@
             <div id="cart-msg"></div>
             <div class="cart-total-row">
                 <span>Total:</span>
-                <span>$<span id="cart-total">0</span></span>
+                <span>₹<span id="cart-total">0</span></span>
             </div>
             <div class="cart-actions">
                 <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
@@ -910,7 +827,7 @@
             var totalAmount = document.getElementById("cart-total").innerText;
             cart = [];
             updateCart();
-            showMessage("Order placed successfully! Total paid: $" + totalAmount);
+            showMessage("Order placed successfully! Total paid: ₹" + totalAmount);
         }
 
         function showMessage(text) {
@@ -946,7 +863,7 @@
                     html += '<img src="' + item.image + '" alt="' + item.name + '">';
                     html += '<div class="cart-item-info">';
                     html += '<h4>' + item.name + '</h4>';
-                    html += '<p>$' + item.price + ' x ' + item.qty + ' = $' + (item.price * item.qty) + '</p>';
+                    html += '<p>₹' + item.price + ' x ' + item.qty + ' = ₹' + (item.price * item.qty) + '</p>';
                     html += '<div class="cart-qty-controls">';
                     html += '<button onclick="changeQty(' + i + ', -1)">-</button>';
                     html += '<span>' + item.qty + '</span>';
